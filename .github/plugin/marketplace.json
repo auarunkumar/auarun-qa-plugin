@@ -1,0 +1,12 @@
+{
+  "name": "auarun-marketplace",
+  "owner": { "name": "AUArun" },
+  "metadata": { "description": "AUArun QA plugins for QA Mart", "version": "1.0.0" },
+  "plugins": [
+    {
+      "name": "auarun-qa-plugin",
+      "source": "./",
+      "description": "QA Mart testing plugin: instructions, commands, skills, agents, MCP server and guardrail hooks."
+    }
+  ]
+}

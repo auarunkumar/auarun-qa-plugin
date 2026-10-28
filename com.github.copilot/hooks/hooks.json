@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "matcher": "edit|create|patch|bash",
+        "command": "node \"${PLUGIN_ROOT}/scripts/guard.cjs\"",
+        "timeoutSec": 10
+      }
+    ],
+    "postToolUse": [
+      {
+        "type": "command",
+        "matcher": "edit|create|patch",
+        "command": "node \"${PLUGIN_ROOT}/scripts/post-edit-lint.cjs\"",
+        "timeoutSec": 90
+      }
+    ]
+  }
+}
