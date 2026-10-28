@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "QA Mart testing plugin: conventions, slash commands, skills, scoped agents, a read-only MCP server and guardrail hooks. Protects sign-in (US-104), coupons (US-101) and stock-limited ordering (US-103).",
   "author": { "name": "AUArun" },
-  "repository": "https://github.com/auarunkumar/AUArun-qa-plugin",
+  "repository": "https://github.com/auarunkumar/auarun-qa-plugin",
   "license": "MIT",
   "keywords": ["playwright", "qa", "testing", "qa-mart", "mcp", "hooks"]
 }

@@ -1,13 +1,11 @@
-# AUArun-qa-plugin
+# auarun-qa-plugin
 
 A GitHub Copilot CLI plugin for testing **QA Mart**. It protects three flows: **sign-in (US-104)**, **coupons (US-101)** and **stock-limited ordering (US-103)**.
-
-> The plugin id is `auarun-qa-plugin`: Agent Plugins names must be lowercase.
 
 ## Install
 
 ```bash
-copilot plugin install auarunkumar/AUArun-qa-plugin
+copilot plugin install auarunkumar/auarun-qa-plugin
 copilot plugin list
 ```
 
